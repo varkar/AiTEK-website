@@ -22,7 +22,7 @@ function ChevronIcon({ open }: { open: boolean }) {
 }
 
 const navLinkClasses =
-  "rounded-full px-4 py-2 text-sm font-medium text-foreground/90 transition-colors hover:bg-surface-raised hover:text-foreground";
+  "inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-medium text-foreground/80 transition-all duration-150 hover:bg-surface-raised hover:text-foreground";
 
 const CLOSE_DELAY = 150;
 
@@ -79,15 +79,27 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
-      <Container className="flex h-18 items-center justify-between py-4">
-        <Link href="/" className="flex items-center">
+    <header className="sticky top-0 z-50 border-b border-border/80 bg-background/85 backdrop-blur-md transition-colors duration-200">
+      <Container className="flex h-16 sm:h-20 items-center justify-between">
+        <Link
+          href="/"
+          className="group flex items-center transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
+          aria-label="AITEK Home"
+        >
           <Image
-            src="/images/logo.jpeg"
-            alt="AITEK – Autonomous Enterprise"
-            width={120}
-            height={120}
-            className="h-14 w-auto object-contain"
+            src="/images/aitek-logo-light.png"
+            alt="AITEK – Human Intelligence. AI Possibilities."
+            width={160}
+            height={103}
+            className="light-only h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+            priority
+          />
+          <Image
+            src="/images/aitek-logo-dark.png"
+            alt="AITEK – Human Intelligence. AI Possibilities."
+            width={160}
+            height={103}
+            className="dark-only h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
             priority
           />
         </Link>
@@ -110,7 +122,7 @@ export default function Header() {
 
           <Link
             href="/contact"
-            className="inline-flex rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+            className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm shadow-primary/20 transition-all duration-150 hover:bg-primary/90 hover:shadow-md hover:shadow-primary/30 active:scale-[0.98]"
           >
             Start a Conversation
           </Link>
@@ -118,7 +130,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-full border border-border p-2 lg:hidden"
+          className="inline-flex items-center justify-center rounded-full border border-border p-2 text-foreground transition-colors hover:border-primary hover:text-primary lg:hidden"
           onClick={() => setMobileOpen((o) => !o)}
           aria-label="Toggle menu"
         >
@@ -133,14 +145,14 @@ export default function Header() {
       </Container>
 
       {mobileOpen && (
-        <div className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-border bg-background lg:hidden">
+        <div className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-border bg-background/95 backdrop-blur-md lg:hidden">
           <Container className="flex flex-col gap-1 py-4">
             {mainNav.map((item) =>
               item.kind === "link" ? (
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="block rounded-xl px-3 py-2.5 text-sm font-semibold text-foreground"
+                  className="block rounded-xl px-3 py-2.5 text-sm font-semibold text-foreground hover:bg-surface-raised transition-colors"
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.label}
@@ -151,7 +163,7 @@ export default function Header() {
                     type="button"
                     aria-expanded={mobileExpanded === item.label}
                     onClick={() => setMobileExpanded((m) => (m === item.label ? null : item.label))}
-                    className="flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-sm font-semibold text-foreground"
+                    className="flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-sm font-semibold text-foreground hover:bg-surface-raised transition-colors"
                   >
                     {item.label}
                     <ChevronIcon open={mobileExpanded === item.label} />
@@ -169,7 +181,7 @@ export default function Header() {
                             <Link
                               key={link.href}
                               href={link.href}
-                              className="block rounded-lg px-3 py-2 text-sm text-foreground/90"
+                              className="block rounded-lg px-3 py-2 text-sm text-foreground/90 hover:bg-surface-raised hover:text-primary transition-colors"
                               onClick={() => setMobileOpen(false)}
                             >
                               {link.label}
@@ -180,7 +192,7 @@ export default function Header() {
                       {!item.hideViewAll && (
                         <Link
                           href={item.href}
-                          className="block rounded-lg px-3 py-2 text-sm font-medium text-primary"
+                          className="block rounded-lg px-3 py-2 text-sm font-medium text-primary hover:underline"
                           onClick={() => setMobileOpen(false)}
                         >
                           View all {item.label}
@@ -192,9 +204,19 @@ export default function Header() {
               )
             )}
 
-            <div className="mt-2 flex items-center gap-3 px-3">
+            <div className="mt-3 flex items-center justify-between border-t border-border/60 pt-4 px-3">
+              <span className="text-sm font-medium text-muted">Appearance</span>
               <ThemeToggle />
-              <span className="text-sm font-medium text-muted">Toggle theme</span>
+            </div>
+
+            <div className="mt-2 px-3 pb-2">
+              <Link
+                href="/contact"
+                className="flex w-full items-center justify-center rounded-full bg-primary py-3 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                Start a Conversation
+              </Link>
             </div>
           </Container>
         </div>

@@ -162,7 +162,7 @@ export default function ContactForm() {
 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333; line-height: 1.6;">
   <div style="text-align: center; padding-bottom: 20px; border-bottom: 2px solid #f0f0f0; margin-bottom: 20px;">
     <!-- NOTE TO DEV: The src URL below will be replaced with the actual hosted URL of the AiTEK logo -->
-    <img src="https://aitek.in/images/logo.jpeg" alt="AiTEK Logo" style="max-width: 180px;" />
+    <img src="https://aitek.in/images/aitek-logo-new.png" alt="AiTEK Logo" style="max-width: 180px;" />
   </div>
   <p>Dear ${values.name},</p>
   <p>Thank you for reaching out to <strong>AiTEK</strong>. We truly appreciate you taking the time to connect with us.</p>

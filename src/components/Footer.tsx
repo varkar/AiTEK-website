@@ -13,11 +13,18 @@ export default function Footer() {
           <div className="col-span-2 sm:col-span-1">
             <Link href="/" className="inline-flex items-center">
               <Image
-                src="/images/logo.jpeg"
-                alt="AITEK – Autonomous Enterprise"
-                width={120}
-                height={120}
-                className="h-10 w-auto object-contain"
+                src="/images/aitek-logo-light.png"
+                alt="AITEK – Human Intelligence. AI Possibilities."
+                width={160}
+                height={103}
+                className="light-only h-10 w-auto object-contain"
+              />
+              <Image
+                src="/images/aitek-logo-dark.png"
+                alt="AITEK – Human Intelligence. AI Possibilities."
+                width={160}
+                height={103}
+                className="dark-only h-10 w-auto object-contain"
               />
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-muted">

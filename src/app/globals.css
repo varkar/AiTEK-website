@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
   --color-background: oklch(100% 0 0);
   --color-surface: oklch(97.5% 0.006 250);
@@ -42,6 +44,23 @@ html {
 
 html[data-theme="dark"] {
   color-scheme: dark;
+}
+
+/* Light / Dark Mode Logo and Element Visibility */
+.light-only {
+  display: block !important;
+}
+html[data-theme="dark"] .light-only,
+[data-theme="dark"] .light-only {
+  display: none !important;
+}
+
+.dark-only {
+  display: none !important;
+}
+html[data-theme="dark"] .dark-only,
+[data-theme="dark"] .dark-only {
+  display: block !important;
 }
 
 @media (prefers-reduced-motion: reduce) {

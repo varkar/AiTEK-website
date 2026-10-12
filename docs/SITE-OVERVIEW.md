@@ -49,7 +49,7 @@ Everything below the pitch pairs a vertical view with a capability view: five in
 
 **Digital Business Engineering** — a standalone page at `/digital-business-engineering`, elevated from a homepage section into its own top-level nav item ("DBE"), covering AITEK's key offerings, transformation lifecycle, and business impact.
 
-**About** — Vision, mission, a four-person leadership roster led by Dr. Hanumanth Rao (Managing Director) and Vijay Kumar (CEO), and the global-presence footprint.
+**About** — Vision, mission, a six-person leadership roster (CEO Vijaykumar Pisupati, MD Hanumantha Rao Koduru, COO Dr. Naga Ravi Shankar Mulagaleti, CTO Ravindra Chebiyam, CSO Jayachandra S Chitti, and ME Practice Head Vijay Ramam Achanta), and the global-presence footprint.
 
 **Contact** — HQ in Hyderabad, a work-email intake form, and — as of this update — a tab to book a call instead of writing one.
 

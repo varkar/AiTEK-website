@@ -37,13 +37,53 @@ export const mission = {
   text: "Our mission is to combine strategic consulting, enterprise engineering, and advanced AI to systematically eliminate operational waste and create sustainable value. We are dedicated to delivering not just tech, but the leadership confidence required to lead change.",
 };
 
-// TODO(owner): replace bios and linkedin URLs with real content per leader; photo is an initials
-// placeholder (LeadershipCard) until headshots are supplied.
 export const leadership = {
   heading: "Leadership Strategic Team (LST)",
-  text: "Our executive team is composed of seasoned practitioners, authors, and advisors dedicated to positioning AITEK at the forefront of global IT. " +
-        "We work directly with C-suite leaders to design, build, and scale autonomous operating models that drive real business outcomes. The team provides strategic and operational leadership across our consulting, engineering, and AI practices, setting the direction for the firm's transformation methodology. By bridging the gap between high-level management consulting and hands-on systems engineering, we ensure that digital investments are firmly aligned with measurable business outcomes. With deep expertise spanning global business strategy, enterprise architecture, and advanced Agentic AI systems design, we are dedicated to transforming traditional organizations into self-optimizing, intelligent operations.",
-  team: [] as Array<{ name: string; title: string; bio: string; linkedin: string }>,
+  text: "Our executive team is composed of seasoned practitioners, technologists, and advisors dedicated to positioning AITEK at the forefront of global enterprise transformation and autonomous systems engineering.",
+  team: [
+    {
+      name: "Vijaykumar Pisupati",
+      title: "CEO",
+      image: "/images/Vijay Kumar.jpeg",
+      bio: "Vijaykumar is a senior management executive and digital business leader with over 43 years of multifaceted experience spanning domain leadership, enterprise IT, and global consulting. With a unique blend of operational depth and strategic foresight, he has dedicated his career to advancing digital transformation through automation, productivity, and innovation.",
+      linkedin: "",
+    },
+    {
+      name: "Hanumantha Rao Koduru",
+      title: "MD",
+      image: "/images/Hanumantha Rao.jpeg",
+      bio: "Visionary and commercially astute Managing Director with over 18 years of distinguished success driving operational excellence, financial performance, and technological innovation within the IT and Services industry. A proven organizational builder, instrumental in establishing, scaling, and developing 5 thriving IT companies from concept to high-growth market players.",
+      linkedin: "",
+    },
+    {
+      name: "Dr Naga Ravi Shankar Mulagaleti",
+      title: "COO",
+      image: "/images/Naga Ravi Shankar.jpeg",
+      bio: "Senior technology executive with 29 years of experience driving digital transformation, AI initiatives, and cloud-native enterprise platforms. A strategic leader combining engineering excellence with global product delivery to transform technology portfolios, specifically within the healthcare and tech sectors.",
+      linkedin: "",
+    },
+    {
+      name: "Ravindra Chebiyam",
+      title: "CTO",
+      image: "/images/Ravindra Chebiyam.jpeg",
+      bio: "Global Technology & Product Executive with 30+ years of experience transforming enterprise technology organizations and products across AI/ML, SaaS, Cloud, and on-premises environments.\n\nBridges business strategy, technology vision, product innovation, and execution to modernize legacy platforms, scale organizations, and deliver measurable business outcomes.\n\nLed global engineering organizations and technology transformation across Portal Software, Oracle, Coupa Software, CA Technologies/Broadcom, and Envoy Global.",
+      linkedin: "",
+    },
+    {
+      name: "Jayachandra S Chitti",
+      title: "CSO",
+      image: "/images/Jayachandra S Chitti.jpeg",
+      bio: "Entrepreneur, Founder, Investor in 3 successful startup companies in IT, Pioneer in Green Innovations, and Sustainability Building Projects. Executive member of Educational institutions, Investor in Corporate-level Training, skills enhancement and Placement company. Domain Expert in Insurance, Healthcare, Supply Chain & Logistics, Manufacturing, Retail, HiTech, Oil & Gas, Food Processing with 50+ projects in 20+ countries in SAP, GRC, Insurance companies.",
+      linkedin: "",
+    },
+    {
+      name: "Vijay Ramam Achanta",
+      title: "ME Practice Head",
+      image: "/images/Vijay Ramam Achanta.jpeg",
+      bio: "Distinguished IT Enterprise Applications Leader with 30+ years of cross-functional expertise in large-scale SAP ERP implementations, global upgrades, and digital transformation initiatives. An agritech entrepreneur who drives business value in corporate operations and to an expansive multi-state network of over 500 retailers.",
+      linkedin: "",
+    },
+  ],
 };
 
 export const globalPresence = {

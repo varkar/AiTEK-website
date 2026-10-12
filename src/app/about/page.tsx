@@ -97,13 +97,14 @@ export default function AboutPage() {
       <section id="leadership" className="scroll-mt-24 border-t border-border py-20 sm:py-24">
         <Container>
           <SectionHeading heading={leadership.heading} text={leadership.text} />
-          <Reveal className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          <Reveal className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {leadership.team.map((member) => (
               <LeadershipCard
                 key={member.name}
                 name={member.name}
                 title={member.title}
                 bio={member.bio}
+                image={member.image}
                 linkedin={member.linkedin}
               />
             ))}

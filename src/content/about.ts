@@ -1,8 +1,8 @@
 export const whoWeAre = {
-  heading: "We Are AITEK – Strategy, Architecture, Intelligence, Execution",
+  heading: "We Are Smart AITEK – Strategy, Architecture, Intelligence, Execution",
   paragraphs: [
     "Traditional consulting firms deliver recommendations without build capabilities, while typical IT vendors write code without understanding strategic business context. This disconnect leaves organizations with fragmented, underperforming technology investments.",
-    "AITEK is a consulting-led, engineering-backed Digital and Agentic AI transformation partner",
+    "Smart AITEK is a consulting-led, engineering-backed Digital and Agentic AI transformation partner",
     "We help organizations modernise operations, transform decision-making, and build intelligent business systems that are scalable, autonomous, and future-ready. Our strategy-led approach connects strategic goals to actual engineering execution, delivering measurable value across your value chain.",
   ],
   capabilitiesHeading: "Key Capabilities",
@@ -24,7 +24,7 @@ export const autonomousOrchestration = {
     "We envision a future where financial blind spots are eliminated and operations adapt dynamically to market variations. Our roadmap establishes zero-touch, self-healing, and self-optimizing ecosystems as the standard for competitive enterprise operations.",
   ],
   quote: "Defining a clear, future-ready business identity is the first step to survival in a volatile economy.",
-  attribution: "AITEK",
+  attribution: "Smart AITEK",
 };
 
 export const vision = {
@@ -39,7 +39,7 @@ export const mission = {
 
 export const leadership = {
   heading: "Leadership Strategic Team (LST)",
-  text: "Our executive team is composed of seasoned practitioners, technologists, and advisors dedicated to positioning AITEK at the forefront of global enterprise transformation and autonomous systems engineering.",
+  text: "Our executive team is composed of seasoned practitioners, technologists, and advisors dedicated to positioning Smart AITEK at the forefront of global enterprise transformation and autonomous systems engineering.",
   team: [
     {
       name: "Vijaykumar Pisupati",
@@ -88,7 +88,7 @@ export const leadership = {
 
 export const globalPresence = {
   heading: "A Global Footprint of Engineering Excellence",
-  text: "Headquartered in India's leading technology hub, AITEK serves organizations worldwide with a highly sophisticated global delivery model. We connect elite engineering talent with local strategic advisory across key economic regions.",
+  text: "Headquartered in India's leading technology hub, Smart AITEK serves organizations worldwide with a highly sophisticated global delivery model. We connect elite engineering talent with local strategic advisory across key economic regions.",
   locations: [
     "Hyderabad, Telangana, India (Headquarters)",
     "Singapore",

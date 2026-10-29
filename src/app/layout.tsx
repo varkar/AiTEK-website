@@ -24,22 +24,22 @@ const siteUrl = "https://www.smartaitek.ai";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AITEK — Architecting the Autonomous Enterprise",
-    template: "%s | AITEK",
+    default: "Smart AITEK — Architecting the Autonomous Enterprise",
+    template: "%s | Smart AITEK",
   },
   description:
-    "AITEK is a consulting-led, engineering-backed partner helping organizations transition from manual operations to self-optimizing, intelligent ecosystems powered by Agentic AI.",
+    "Smart AITEK is a consulting-led, engineering-backed partner helping organizations transition from manual operations to self-optimizing, intelligent ecosystems powered by Agentic AI.",
   openGraph: {
     type: "website",
-    siteName: "AITEK",
+    siteName: "Smart AITEK",
     url: siteUrl,
-    title: "AITEK — Architecting the Autonomous Enterprise",
+    title: "Smart AITEK — Architecting the Autonomous Enterprise",
     description:
       "Consulting-led, engineering-backed partner for Digital Business Engineering, Enterprise Architecture, and Agentic AI transformation.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AITEK — Architecting the Autonomous Enterprise",
+    title: "Smart AITEK — Architecting the Autonomous Enterprise",
     description:
       "Consulting-led, engineering-backed partner for Digital Business Engineering, Enterprise Architecture, and Agentic AI transformation.",
   },

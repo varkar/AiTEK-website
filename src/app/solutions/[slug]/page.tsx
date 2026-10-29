@@ -55,7 +55,7 @@ export default async function SolutionPage({
 
       <CTABand
         heading="See how this plays out by industry"
-        text="Explore the business challenges, capabilities, and outcomes AITEK delivers across Manufacturing, Oil & Gas, Insurance, Healthcare, and Pharmaceuticals."
+        text="Explore the business challenges, capabilities, and outcomes Smart AITEK delivers across Manufacturing, Oil & Gas, Insurance, Healthcare, and Pharmaceuticals."
         cta={<Button href="/industries">View Industries</Button>}
       />
     </>

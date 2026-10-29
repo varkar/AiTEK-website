@@ -161,16 +161,16 @@ export default function ContactForm() {
       const autoReplyContent = `
 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333; line-height: 1.6;">
   <div style="text-align: center; padding-bottom: 20px; border-bottom: 2px solid #f0f0f0; margin-bottom: 20px;">
-    <!-- NOTE TO DEV: The src URL below will be replaced with the actual hosted URL of the AiTEK logo -->
-    <img src="https://smartaitek.in/images/aitek-logo-new.png" alt="AiTEK Logo" style="max-width: 180px;" />
+    <!-- NOTE TO DEV: The src URL below will be replaced with the actual hosted URL of the Smart AITEK logo -->
+    <img src="https://smartaitek.ai/images/aitek-logo-new.png" alt="Smart AITEK Logo" style="max-width: 180px;" />
   </div>
   <p>Dear ${values.name},</p>
-  <p>Thank you for reaching out to <strong>AiTEK</strong>. We truly appreciate you taking the time to connect with us.</p>
+  <p>Thank you for reaching out to <strong>Smart AITEK</strong>. We truly appreciate you taking the time to connect with us.</p>
   <p>We have successfully received your message, and one of our representatives will be in touch with you in the coming days to discuss your inquiry further.</p>
   <br>
   <p>Best regards,</p>
-  <p><strong>The AiTEK Team</strong><br>
-  <a href="mailto:info@smartaitek.ai" style="color: #0056b3; text-decoration: none;">info@smartaitek.in</a></p>
+  <p><strong>The Smart AITEK Team</strong><br>
+  <a href="mailto:info@smartaitek.ai" style="color: #0056b3; text-decoration: none;">info@smartaitek.ai</a></p>
 </div>
 `.trim();
 
@@ -181,7 +181,7 @@ export default function ContactForm() {
         },
         body: JSON.stringify({
           to: values.email,
-          subject: 'Thank you for reaching out to AiTEK',
+          subject: 'Thank you for reaching out to Smart AITEK',
           content: autoReplyContent
         })
       });
@@ -240,7 +240,7 @@ export default function ContactForm() {
         </div>
         <h3 className="mt-4 text-lg font-semibold text-foreground">Thank you for reaching out.</h3>
         <p className="mt-2 text-sm text-muted">
-          {summary ?? "A member of the AITEK team will get back to you shortly."}
+          {summary ?? "A member of the Smart AITEK team will get back to you shortly."}
         </p>
         <button type="button" onClick={reset} className="mt-6 text-sm font-medium text-primary hover:underline">
           Send another message

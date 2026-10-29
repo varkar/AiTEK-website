@@ -7,9 +7,9 @@ export const industriesOverview = {
 };
 
 export const transformationModel = {
-  heading: "AITEK Transformation Model",
+  heading: "Smart AITEK Transformation Model",
   paragraphs: [
-    "At AITEK, we help enterprises move beyond traditional digital transformation by engineering intelligent operating models powered by Digital Business Engineering, Artificial Intelligence, Agentic AI, Multi-Agent Systems, and Enterprise Architecture. Our approach combines strategic consulting with deep engineering expertise to transform fragmented operations into connected, intelligent, and autonomous enterprises.",
+    "At Smart AITEK, we help enterprises move beyond traditional digital transformation by engineering intelligent operating models powered by Digital Business Engineering, Artificial Intelligence, Agentic AI, Multi-Agent Systems, and Enterprise Architecture. Our approach combines strategic consulting with deep engineering expertise to transform fragmented operations into connected, intelligent, and autonomous enterprises.",
     "Rather than implementing isolated technologies, we design industry-specific transformation journeys that align strategy, business processes, people, data, and technology to deliver measurable business outcomes.",
   ],
   steps: [
@@ -20,7 +20,7 @@ export const transformationModel = {
 };
 
 export const whyLeadersChoose = {
-  heading: "Why Industry Leaders Choose AITEK",
+  heading: "Why Industry Leaders Choose Smart AITEK",
   items: [
     {
       title: "Strategy Leads",
@@ -51,7 +51,7 @@ export const industries: Industry[] = [
       pageTitle: "Engineering the Self-Optimising Manufacturing Value Chain",
       hook: "Traditional manufacturers face extreme volatility in demand, supplier networks, and scheduling. Semi-automated, siloed operations and reactive “break-fix” maintenance models routinely cause costly unplanned shut-downs and heavy inventory overhead.",
       solution: [
-        "AITEK integrates Operational Technology (OT), Information Technology (IT), and ERP systems into a unified digital operating model. We deploy goal-oriented AI agents that continuously monitor operations, anticipate process disruptions, and automatically re-sequence schedules in real time.",
+        "Smart AITEK integrates Operational Technology (OT), Information Technology (IT), and ERP systems into a unified digital operating model. We deploy goal-oriented AI agents that continuously monitor operations, anticipate process disruptions, and automatically re-sequence schedules in real time.",
         "Our methodology eliminates costly operational blind spots across the plant and the wider value chain. Transitioning from manual, periodic planning to continuous, real-time execution frees human expertise to focus entirely on high-level strategic growth.",
       ],
       capabilitiesHeading: "Key Capabilities",
@@ -79,7 +79,7 @@ export const industries: Industry[] = [
       pageTitle: "Closed-Loop Downstream Process and Asset Integrity",
       hook: "Downstream oil and gas assets operate under tight regulatory oversight, aging infrastructure, and significant operational hazards. Traditional monitoring fails to predict critical failure chains or optimize refinery yields in real time.",
       solution: [
-        "AITEK builds a predictive operational model that integrates DCS, APC, laboratory, and maintenance data into a single intelligence fabric. The system calculates a continuous Refinery Health Index (RHI) to predict and prevent threshold violations before alarms sound.",
+        "Smart AITEK builds a predictive operational model that integrates DCS, APC, laboratory, and maintenance data into a single intelligence fabric. The system calculates a continuous Refinery Health Index (RHI) to predict and prevent threshold violations before alarms sound.",
         "Our domain-specific solutions feature specialized agents collaborating to adjust setpoints automatically. This closed-loop system ensures safer scenario evaluation, optimized crude selection, and minimized carbon emissions with minimal operator intervention.",
       ],
       capabilitiesHeading: "Key Capabilities",
@@ -107,7 +107,7 @@ export const industries: Industry[] = [
       pageTitle: "Underwriting Agility and Intelligent Claims Automation",
       hook: "Insurance carriers are hindered by paper-heavy, manual claims validation and slow, inconsistent underwriting cycles. Fragmented digital projects often result in high capital spend without improving loss ratios or customer retention.",
       solution: [
-        "AITEK transforms back-office processes into an active, collaborative digital workforce. We implement Multi-Agent Systems that analyze risk profiles, process document anomalies, and automate settlement workflows within strict governance boundaries.",
+        "Smart AITEK transforms back-office processes into an active, collaborative digital workforce. We implement Multi-Agent Systems that analyze risk profiles, process document anomalies, and automate settlement workflows within strict governance boundaries.",
         "This transition streamlines repetitive processing, allowing instant case preparation and automated fraud checking. High-impact and highly ambiguous cases are seamlessly escalated to human specialists, ensuring perfect compliance, transparency, and trust.",
       ],
       capabilitiesHeading: "Key Capabilities",
@@ -135,7 +135,7 @@ export const industries: Industry[] = [
       pageTitle: "Connected Care Models for Optimized Healthcare Performance",
       hook: "Healthcare organizations struggle with severe workforce shortages, rising administrative costs, and disconnected patient pathways. Siloed provider and payer data streams delay billing reconciliation and compromise care coordination.",
       solution: [
-        "AITEK connects clinical, operational, administrative, and financial functions into a unified digital operating model. We employ predictive intelligence and collaborative agents to streamline patient flows, automate billing, and coordinate preventative post-discharge care.",
+        "Smart AITEK connects clinical, operational, administrative, and financial functions into a unified digital operating model. We employ predictive intelligence and collaborative agents to streamline patient flows, automate billing, and coordinate preventative post-discharge care.",
         "These capabilities unify electronic records and clinical diagnostics. Caregivers are supported by clinical copilots that dramatically reduce administrative reporting burdens, allowing them to focus entirely on exceptional patient care.",
       ],
       capabilitiesHeading: "Key Capabilities",
@@ -163,7 +163,7 @@ export const industries: Industry[] = [
       pageTitle: "Quality Compliance and Continuous Value Chain Acceleration",
       hook: "Pharmaceutical firms face intense pressure to reduce clinical timelines while maintaining strict regulatory compliance. Fragmented, manual hand-offs between R&D, continuous manufacturing, and cold chain distribution introduce operational bottlenecks and compliance risks.",
       solution: [
-        "AITEK engineers connected, intelligent digital ecosystems that span the entire product lifecycle. We deploy specialized agents to continuously monitor batch quality, secure product traceability, and automate regulatory documentation.",
+        "Smart AITEK engineers connected, intelligent digital ecosystems that span the entire product lifecycle. We deploy specialized agents to continuously monitor batch quality, secure product traceability, and automate regulatory documentation.",
         "These multi-layered solutions combine sensor tracking with context-aware knowledge platforms. Researchers, quality professionals, and logistics managers access unified intelligence, preventing product spoilage and automating safety signal detection.",
       ],
       capabilitiesHeading: "Key Capabilities",

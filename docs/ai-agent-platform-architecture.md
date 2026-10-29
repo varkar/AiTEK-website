@@ -1,6 +1,6 @@
 # AI Agent Platform — Architecture Approach
 
-Scope: this doc records the architecture reasoning for the AI agent products roadmap — delivered as both a **SaaS** (multi-tenant hosted product) and a **PaaS** (embeddable/white-label platform clients build on). It is not about the AITEK marketing site itself (see `docs/SITE-OVERVIEW.md` for that).
+Scope: this doc records the architecture reasoning for the AI agent products roadmap — delivered as both a **SaaS** (multi-tenant hosted product) and a **PaaS** (embeddable/white-label platform clients build on). It is not about the Smart AITEK marketing site itself (see `docs/SITE-OVERVIEW.md` for that).
 
 Stack decision: **Next.js (App Router) as a thin UI/BFF layer**, **FastAPI (Python) as the agent backend** — owning orchestration, queues, background jobs, and websockets.
 
@@ -17,8 +17,8 @@ Stack decision: **Next.js (App Router) as a thin UI/BFF layer**, **FastAPI (Pyth
 Next.js explicitly does **not** own queues, websockets, or background jobs — FastAPI does. This is what makes the frontend "thin": it renders UI and forwards requests, it doesn't do agent work.
 
 Two consumption modes:
-- **SaaS** — Next.js hosts AITEK's own multi-tenant dashboard, talking to FastAPI.
-- **PaaS** — Clients embed AITEK's widget/console (a Next.js route surface) and/or call the FastAPI API directly from their own frontend. Next.js only serves AITEK's own embed/console UI, not the client's app.
+- **SaaS** — Next.js hosts Smart AITEK's own multi-tenant dashboard, talking to FastAPI.
+- **PaaS** — Clients embed Smart AITEK's widget/console (a Next.js route surface) and/or call the FastAPI API directly from their own frontend. Next.js only serves Smart AITEK's own embed/console UI, not the client's app.
 
 ## 2. How App Router addresses this
 

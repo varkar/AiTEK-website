@@ -19,7 +19,7 @@ import { industries } from "@/content/industries";
 import { heroArchitecture } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: "AITEK — Architecting the Autonomous Enterprise",
+  title: "Smart AITEK — Architecting the Autonomous Enterprise",
   description: hero.subhead,
 };
 

@@ -3,7 +3,7 @@ export const dbeHero = {
   heading: "Digital Business Engineering (DBE) – The Engine of Autonomy",
   hook: "Up to 70% of digital transformation programs fail because they treat technology as an administrative support function rather than a core competency. In a VUCA world where 40% of traditional businesses face extinction within a decade, survival requires complete operational reinvention.",
   solution: [
-    "Digital Business Engineering (DBE) is AITEK's flagship intellectual property. It is the disciplined process of integrating digital networks, automation, and data-driven models into every aspect of the value chain.",
+    "Digital Business Engineering (DBE) is Smart AITEK's flagship intellectual property. It is the disciplined process of integrating digital networks, automation, and data-driven models into every aspect of the value chain.",
     "Rather than simply installing tools, we engineer a digital business system designed to excel under volatile conditions. We treat every digital initiative like an internal tech startup, guiding your organization through a structured, closed-loop transformation engine.",
   ],
 };

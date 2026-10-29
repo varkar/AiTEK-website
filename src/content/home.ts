@@ -86,7 +86,7 @@ export const corePillars = {
 
 export const industryIntelligence = {
   eyebrow: "Deep Industry Intelligence",
-  text: "AITEK delivers specialized expertise across high-value industry verticals.",
+  text: "Smart AITEK delivers specialized expertise across high-value industry verticals.",
 };
 
 export const getStartedPromo = {

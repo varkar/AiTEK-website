@@ -54,7 +54,7 @@ export default async function IndustryPage({
 
       <CTABand
         heading="Explore our AI capability layers"
-        text="See how AITEK's AI/ML, AI Agents, Agentic Framework, and Tools capabilities come together to deliver this outcome."
+        text="See how Smart AITEK's AI/ML, AI Agents, Agentic Framework, and Tools capabilities come together to deliver this outcome."
         cta={<Button href="/solutions">View Solutions</Button>}
       />
     </>

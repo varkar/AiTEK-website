@@ -14,14 +14,14 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center">
               <Image
                 src="/images/aitek-logo-light.png"
-                alt="AITEK – Human Intelligence. AI Possibilities."
+                alt="Smart AITEK – Human Intelligence. AI Possibilities."
                 width={160}
                 height={103}
                 className="light-only h-10 w-auto object-contain"
               />
               <Image
                 src="/images/aitek-logo-dark.png"
-                alt="AITEK – Human Intelligence. AI Possibilities."
+                alt="Smart AITEK – Human Intelligence. AI Possibilities."
                 width={160}
                 height={103}
                 className="dark-only h-10 w-auto object-contain"
@@ -36,7 +36,7 @@ export default function Footer() {
                   href={social.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="AITEK on LinkedIn"
+                  aria-label="Smart AITEK on LinkedIn"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-primary hover:text-primary"
                 >
                   <IconLinkedIn className="h-4 w-4" />
@@ -82,7 +82,7 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold text-foreground">Get in Touch</p>
             <ul className="mt-3 space-y-2 text-sm text-muted">
-              <li>AITEK, Hyderabad</li>
+              <li>Smart AITEK, Hyderabad</li>
               <li>
                 <a href="mailto:info@smartaitek.ai" className="hover:text-primary">
                   info@smartaitek.ai
@@ -93,7 +93,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-6 text-xs text-muted">
-          <p>&copy; {new Date().getFullYear()} AITEK. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Smart AITEK. All rights reserved.</p>
         </div>
       </Container>
     </footer>

@@ -2,7 +2,7 @@ export const contactHero = {
   heading: "Initiate Your Transformation Journey Today",
   paragraphs: [
     "Every successful business transformation begins with a single, strategic conversation. Do not let unclear digital purpose or legacy complexity delay your path to autonomy.",
-    "Connect with AITEK's strategy partners to baseline your current maturity, discover high-value opportunities, and establish a clear roadmap. We work closely with executive leadership to design programs that yield immediate financial and operational value.",
+    "Connect with Smart AITEK's strategy partners to baseline your current maturity, discover high-value opportunities, and establish a clear roadmap. We work closely with executive leadership to design programs that yield immediate financial and operational value.",
     "To start your journey, business leaders can engage with our experts through several high-impact diagnostic accelerators. Simply email our corporate headquarters at info@smartaitek.ai to book your session.",
   ],
 };
@@ -34,7 +34,7 @@ export const diagnosticAccelerators = {
 export const getInTouch = {
   heading: "Get in Touch",
   hqLabel: "Corporate Headquarters",
-  hq: "AITEK, Hyderabad",
+  hq: "Smart AITEK, Hyderabad",
   email: "info@smartaitek.ai",
 };
 
@@ -64,15 +64,15 @@ export const howWeCanHelp = {
 };
 
 export const whyPartner = {
-  heading: "Why Partner with AITEK?",
+  heading: "Why Partner with Smart AITEK?",
   paragraphs: [
     "We combine strategic consulting with deep engineering expertise to help organizations move beyond isolated technology initiatives. Our consulting-led, engineering-backed approach ensures every transformation is aligned with business objectives, delivers measurable outcomes, and creates a scalable foundation for continuous innovation.",
-    "From strategy through execution, AITEK partners with enterprises to build intelligent, connected, and future-ready organizations.",
+    "From strategy through execution, Smart AITEK partners with enterprises to build intelligent, connected, and future-ready organizations.",
   ],
 };
 
 export const startConversation = {
   heading: "Start the Conversation",
   text: "Whether you're beginning your digital transformation journey or scaling enterprise AI across your organization, our team is ready to help.",
-  closing: "Let's discuss how AITEK can help your organization engineer the future of intelligent business.",
+  closing: "Let's discuss how Smart AITEK can help your organization engineer the future of intelligent business.",
 };

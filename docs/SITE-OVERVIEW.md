@@ -1,10 +1,10 @@
-# AITEK Site Overview
+# Smart AITEK Site Overview
 
 What the site showcases, and how it's built. Prepared from the live codebase, not aspirational copy.
 
 ## Part One — The Story
 
-### The case AITEK makes
+### The case Smart AITEK makes
 
 The homepage exists to make one argument before anything else: most digital transformation fails, and the reason is a lack of strategic clarity, not a lack of tooling.
 
@@ -47,7 +47,7 @@ Everything below the pitch pairs a vertical view with a capability view: five in
 - **Domain** (`/expertise/domain`) — the same five industry verticals as above (Manufacturing, Oil & Gas, Insurance, Healthcare, Pharmaceuticals), addressed from a domain-expertise angle rather than a challenges/solutions one.
 - **Functions** (`/expertise/functions`) — Intelligent Factory, Supply Chain Management, Manufacturing Excellence, Smart Operations, Digital Twins, and SAP.
 
-**Digital Business Engineering** — a standalone page at `/digital-business-engineering`, elevated from a homepage section into its own top-level nav item ("DBE"), covering AITEK's key offerings, transformation lifecycle, and business impact.
+**Digital Business Engineering** — a standalone page at `/digital-business-engineering`, elevated from a homepage section into its own top-level nav item ("DBE"), covering Smart AITEK's key offerings, transformation lifecycle, and business impact.
 
 **About** — Vision, mission, a six-person leadership roster (CEO Vijaykumar Pisupati, MD Hanumantha Rao Koduru, COO Dr. Naga Ravi Shankar Mulagaleti, CTO Ravindra Chebiyam, CSO Jayachandra S Chitti, and ME Practice Head Vijay Ramam Achanta), and the global-presence footprint.
 

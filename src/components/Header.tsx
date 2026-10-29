@@ -84,11 +84,11 @@ export default function Header() {
         <Link
           href="/"
           className="group flex items-center transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-lg"
-          aria-label="AITEK Home"
+          aria-label="Smart AITEK Home"
         >
           <Image
             src="/images/aitek-logo-light.png"
-            alt="AITEK – Human Intelligence. AI Possibilities."
+            alt="Smart AITEK – Human Intelligence. AI Possibilities."
             width={160}
             height={103}
             className="light-only h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
@@ -96,7 +96,7 @@ export default function Header() {
           />
           <Image
             src="/images/aitek-logo-dark.png"
-            alt="AITEK – Human Intelligence. AI Possibilities."
+            alt="Smart AITEK – Human Intelligence. AI Possibilities."
             width={160}
             height={103}
             className="dark-only h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"

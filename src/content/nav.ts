@@ -94,7 +94,7 @@ export const mainNav: NavItem[] = [
 export const footerNav = {
   industries: navIndustries.map((i) => ({ label: i.name, href: `/industries/${i.slug}` })),
   company: [
-    { label: "About AITEK", href: "/about" },
+    { label: "About Smart AITEK", href: "/about" },
     { label: "Expertise", href: "/expertise" },
     { label: "Solutions", href: "/solutions" },
     { label: "Digital Business Engineering (DBE)", href: "/digital-business-engineering" },

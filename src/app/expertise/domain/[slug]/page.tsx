@@ -55,7 +55,7 @@ export default async function DomainDetailPage({
 
       <CTABand
         heading={`See the ${page.tagline ?? page.pageTitle} industry approach`}
-        text="Explore the business challenges, capabilities, and outcomes AITEK delivers for this industry."
+        text="Explore the business challenges, capabilities, and outcomes Smart AITEK delivers for this industry."
         cta={<Button href={`/industries/${page.slug}`}>View Industry Page</Button>}
       />
     </>

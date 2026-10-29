@@ -1,19 +1,19 @@
-# AITEK Site
+# Smart AITEK Site
 
-Marketing site for AITEK — a consulting-led, engineering-backed partner for Digital Business Engineering, Enterprise Architecture, and Agentic AI transformation.
+Marketing site for Smart AITEK — a consulting-led, engineering-backed partner for Digital Business Engineering, Enterprise Architecture, and Agentic AI transformation.
 
 For the full story of what the site argues, how its content is organized, and the engineering decisions behind it, see [`../docs/SITE-OVERVIEW.md`](../docs/SITE-OVERVIEW.md) — kept outside this folder so it doesn't ship as part of the app.
 
 ## Overview
 
-The site makes one argument before anything else: most digital transformation fails from a lack of strategic clarity, not a lack of tooling. AITEK positions itself as a consulting-led, engineering-backed partner that closes that gap through Digital Business Engineering, Enterprise Architecture, and Agentic AI — helping organizations move from manual operations to self-optimizing, autonomous enterprises.
+The site makes one argument before anything else: most digital transformation fails from a lack of strategic clarity, not a lack of tooling. Smart AITEK positions itself as a consulting-led, engineering-backed partner that closes that gap through Digital Business Engineering, Enterprise Architecture, and Agentic AI — helping organizations move from manual operations to self-optimizing, autonomous enterprises.
 
 The content is organized around five industry verticals — Manufacturing, Oil & Gas, Insurance, Healthcare, Pharmaceuticals — each addressed from two angles:
 
 - **Industries** — the business problem, challenges, and outcomes per vertical
 - **Solutions** — the technical answer, as four AI capability pages (AI/ML, AI Agents, Agentic Framework, Tools)
 
-Alongside that, an **Expertise** tree (Consulting, Domain, Functions) serves visitors who think in capabilities rather than industries, a dedicated **Digital Business Engineering** page covers AITEK's flagship transformation methodology, and **About**/**Contact** round out the site. See `../docs/SITE-OVERVIEW.md` for the full route map and the reasoning behind each engineering decision.
+Alongside that, an **Expertise** tree (Consulting, Domain, Functions) serves visitors who think in capabilities rather than industries, a dedicated **Digital Business Engineering** page covers Smart AITEK's flagship transformation methodology, and **About**/**Contact** round out the site. See `../docs/SITE-OVERVIEW.md` for the full route map and the reasoning behind each engineering decision.
 
 ## Tech stack
 

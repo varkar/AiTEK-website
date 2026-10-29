@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://www.aitek.in";
+const siteUrl = "https://www.smartaitek.ai";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

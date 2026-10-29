@@ -84,8 +84,8 @@ export default function Footer() {
             <ul className="mt-3 space-y-2 text-sm text-muted">
               <li>AITEK, Hyderabad</li>
               <li>
-                <a href="mailto:info@aitek.in" className="hover:text-primary">
-                  info@aitek.in
+                <a href="mailto:info@smartaitek.ai" className="hover:text-primary">
+                  info@smartaitek.ai
                 </a>
               </li>
             </ul>

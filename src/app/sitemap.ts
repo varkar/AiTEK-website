@@ -5,7 +5,7 @@ import { consultingCategory, domainCategory, functionsCategory, aiForEnterprise 
 
 export const dynamic = "force-static";
 
-const siteUrl = "https://www.aitek.in";
+const siteUrl = "https://www.smartaitek.ai";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

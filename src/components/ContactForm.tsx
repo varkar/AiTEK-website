@@ -148,7 +148,7 @@ export default function ContactForm() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          to: 'info@aitek.in',
+          to: 'info@smartaitek.ai',
           subject: `New Website Lead from ${values.name}`,
           content: emailContent
         })
@@ -162,7 +162,7 @@ export default function ContactForm() {
 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333; line-height: 1.6;">
   <div style="text-align: center; padding-bottom: 20px; border-bottom: 2px solid #f0f0f0; margin-bottom: 20px;">
     <!-- NOTE TO DEV: The src URL below will be replaced with the actual hosted URL of the AiTEK logo -->
-    <img src="https://aitek.in/images/aitek-logo-new.png" alt="AiTEK Logo" style="max-width: 180px;" />
+    <img src="https://smartaitek.in/images/aitek-logo-new.png" alt="AiTEK Logo" style="max-width: 180px;" />
   </div>
   <p>Dear ${values.name},</p>
   <p>Thank you for reaching out to <strong>AiTEK</strong>. We truly appreciate you taking the time to connect with us.</p>
@@ -170,7 +170,7 @@ export default function ContactForm() {
   <br>
   <p>Best regards,</p>
   <p><strong>The AiTEK Team</strong><br>
-  <a href="mailto:info@aitek.in" style="color: #0056b3; text-decoration: none;">info@aitek.in</a></p>
+  <a href="mailto:info@smartaitek.ai" style="color: #0056b3; text-decoration: none;">info@smartaitek.in</a></p>
 </div>
 `.trim();
 

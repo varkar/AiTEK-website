@@ -30,7 +30,7 @@ export async function POST(request: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        fromAddress: 'info@aitek.in',
+        fromAddress: 'info@smartaitek.ai',
         toAddress: to,
         subject: subject,
         content: content,

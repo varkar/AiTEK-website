@@ -3,7 +3,7 @@ export const contactHero = {
   paragraphs: [
     "Every successful business transformation begins with a single, strategic conversation. Do not let unclear digital purpose or legacy complexity delay your path to autonomy.",
     "Connect with AITEK's strategy partners to baseline your current maturity, discover high-value opportunities, and establish a clear roadmap. We work closely with executive leadership to design programs that yield immediate financial and operational value.",
-    "To start your journey, business leaders can engage with our experts through several high-impact diagnostic accelerators. Simply email our corporate headquarters at info@aitek.in to book your session.",
+    "To start your journey, business leaders can engage with our experts through several high-impact diagnostic accelerators. Simply email our corporate headquarters at info@smartaitek.ai to book your session.",
   ],
 };
 
@@ -35,7 +35,7 @@ export const getInTouch = {
   heading: "Get in Touch",
   hqLabel: "Corporate Headquarters",
   hq: "AITEK, Hyderabad",
-  email: "info@aitek.in",
+  email: "info@smartaitek.ai",
 };
 
 export const globalPresenceContact = {
